@@ -5,29 +5,85 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>إلى أغلى إنسان ✨</title>
     <style>
-        body { background: #fff0f3; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; display: flex; align-items: center; justify-content: center; min-height: 100vh; margin: 0; color: #444; }
-        .box { background: white; padding: 35px 25px; border-radius: 30px; box-shadow: 0 15px 35px rgba(255, 182, 193, 0.3); text-align: center; width: 85%; max-width: 450px; border: 1px solid #ffccd5; }
-        input { width: 90%; padding: 15px; margin: 20px 0; border: 2px solid #ffccd5; border-radius: 15px; text-align: center; outline: none; font-size: 18px; color: #ff4d6d; }
-        button { background: #ff4d6d; color: white; border: none; padding: 15px; border-radius: 15px; cursor: pointer; font-size: 18px; width: 100%; font-weight: bold; transition: 0.3s; }
-        button:hover { background: #ff758f; }
-        .message-content { display: none; text-align: right; animation: fadeIn 1.2s ease-in-out; }
-        .msg { background: #fff8f9; border-right: 5px solid #ff4d6d; padding: 20px; margin-bottom: 20px; border-radius: 15px; line-height: 1.8; font-size: 17px; white-space: pre-line; }
-        h2 { color: #ff4d6d; margin-top: 0; }
-        @keyframes fadeIn { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+        body { 
+            background-color: #0a0a0a; 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            display: flex; 
+            align-items: center; 
+            justify-content: center; 
+            min-height: 100vh; 
+            margin: 0; 
+            color: #e0e0e0; 
+        }
+        .box { 
+            background: #161616; 
+            padding: 40px 25px; 
+            border-radius: 25px; 
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5), 0 0 15px rgba(255, 77, 109, 0.1); 
+            text-align: center; 
+            width: 85%; 
+            max-width: 450px; 
+            border: 1px solid #222; 
+        }
+        h2 { color: #ff4d6d; margin-top: 0; font-size: 24px; }
+        p { font-size: 16px; color: #bbb; }
+        input { 
+            width: 90%; 
+            padding: 15px; 
+            margin: 20px 0; 
+            border: 1px solid #333; 
+            border-radius: 12px; 
+            text-align: center; 
+            outline: none; 
+            font-size: 18px; 
+            background: #0f0f0f; 
+            color: #ff4d6d; 
+            box-shadow: inset 0 2px 5px rgba(0,0,0,0.3);
+        }
+        button { 
+            background: #ff4d6d; 
+            color: white; 
+            border: none; 
+            padding: 15px; 
+            border-radius: 12px; 
+            cursor: pointer; 
+            font-size: 18px; 
+            width: 100%; 
+            font-weight: bold; 
+            transition: 0.3s; 
+            box-shadow: 0 5px 15px rgba(255, 77, 109, 0.3);
+        }
+        button:hover { background: #ff758f; transform: translateY(-2px); }
+        .message-content { display: none; text-align: right; animation: fadeIn 1.5s ease-in-out; }
+        .msg { 
+            background: #1f1f1f; 
+            border-right: 5px solid #ff4d6d; 
+            padding: 20px; 
+            margin-bottom: 20px; 
+            border-radius: 15px; 
+            line-height: 1.8; 
+            font-size: 17px; 
+            white-space: pre-line; 
+            color: #eee;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }
     </style>
 </head>
 <body>
     <div class="box" id="loginBox">
         <h2>🔒 مساحتنا السرية</h2>
-        <p>اكتب التاريخ اللي بينا عشان تشوف اللي جوايا</p>
+        <p>اكتبي التاريخ اللي بينا عشان تشوفي المفاجأة</p>
         <input type="text" id="passInput" placeholder="يوم/شهر/سنة">
         <button onclick="unlock()">فتح القلب ❤️</button>
     </div>
+
     <div class="box message-content" id="messageBox">
         <h2>رسائلي لك ✨</h2>
         <div class="msg">أنا بجد متوقعتش ان ممكن ف يوم يبقا معايا حد زيك او حته اني احب حد قد محبينك يمكن أنا مش بثبت بس أنا جوايا كتير أنا بجد عشقتك و مش متخيله ان ممكن يجي يوم و انت متبقاش معايا.. أنا حبيتك بطريقه غريبه اول مره احب و أتعلق بحد ب الطريقه دي أنا نفسي تفضل معايا و أنا عارفه اني بدايقك و بزعلك كتير بس بجد أنا مبستحملش انك تدايق او تزعل و نفسي منتخانقش ولا اي حاجه تحصل بينا بس أنا طول منت معايا حته لو هتبقا علاقتنا كلها خناق أنا راضيه و مش عيزاك تبعد لو حصل ايه و بجد مش هقدر أعيش منغيرك.. و بجد انت اول مدخلت حياتي أنا مبقتش شايفه غيرك انت بجد مالي عيني و قلبي و عقلي و كل حاجه فيا و استحالا اني أبص لحد تاني و استحالا اني احب حد نص الحب اللي حبتهولك و بجد حته لو حصل بينا ايه انت هتفضل اكتر شخص بحبو فحياتي و عمري مهبطل احبك ولا هفكر اني ابطل احبك.. وكده كده أنا مش هقدر انت روحي أصلا و قلبي و حياتي و دنيتي كلها أنا بجد ماليش غيرك و مش عايزه غيرك أصلا أنا كلمة بحبك دي قليله اوييي ع كمية الحب اللي بحبهولك أنا عشقتك و ياريت متبعدش عني و أنا مش هبعد لو حصل ايه علشان حبيتك و بجد مفيش كلام يقدر انو يوصف كمية الحب اللي فقلبي ليك و يارب تفضل معايا و منبعدش ابدا.</div>
         <div class="msg">بحبك اوي و نفسي نفضل دايما مع بعض علطول ❤️</div>
     </div>
+
     <script>
         function unlock() {
             const pass = document.getElementById('passInput').value.trim();
@@ -35,7 +91,7 @@
                 document.getElementById('loginBox').style.display = 'none';
                 document.getElementById('messageBox').style.display = 'block';
             } else {
-                alert("كلمة السر غلط.. حاولي تاني يا حبيبتي");
+                alert("التاريخ غلط.. حاولي تاني يا حبيبتي");
             }
         }
     </script>
